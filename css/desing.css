@@ -1,0 +1,801 @@
+body{
+font-size: 16px;
+font-family: 'Sacramento', cursive;  	
+background: #233D58;
+position: ;
+}
+
+header{
+width: 100%;
+height: 35px;
+background: white;
+position: absolute;
+top: 0px
+}
+header div#h1{
+display: none;	
+}
+
+header div h3{
+display:; 
+font-size:27px;
+background:  ;
+margin-top: 5px; 	
+margin-left: 2px;
+cursor: pointer;
+}
+
+nav#Menú_exit{
+display: none;	
+height: 500px;
+width: 200px;
+background: white;
+margin: -65px 0px 0px 0px;
+position: fixed;
+left: 0px;
+border-right: 1px solid #443838;
+z-index: 100;
+}
+
+nav h3{
+font-size:27px;
+background: ;
+margin-top: 5px;
+margin-left: 10px;
+cursor: pointer;
+}
+
+
+nav figure#logo_menu{	
+background: orange;
+width: 180px;
+height: 200px;
+margin-top:-20px;
+margin-bottom: 25px;
+margin-left: 10px;
+}
+
+nav figure img{
+width: 100%;
+height: 100%;
+	
+}
+
+nav figure#logo_entradas{
+background: ;
+list-style: none;
+font-size: 20px;
+line-height: 37px;
+margin-left: 25px;
+}
+
+figure#logo_entradas li > a{
+text-decoration: none;
+color:black;
+font-family: 'Merienda', cursive;  	
+}
+
+
+div#boton_siguiente,
+div#boton_anterior{
+position: absolute;
+background: yellow;
+cursor: pointer;
+width: 25px;
+height: 25px;
+top: 0px;
+margin: 5px;
+border-radius: 50%;	
+}
+
+div#boton_siguiente{
+right: 5px;	
+}
+div#boton_anterior{
+right: 35px;	
+}
+
+div#boton_siguiente:before{
+font-family: "icomoon";
+content: "\ea34";
+font-size: 0.45cm;
+left:  3.5px;	
+top: 2.5px;
+position: relative;
+}
+
+div#boton_anterior:before{
+font-family: "icomoon";
+content: "\ea38";
+font-size:0.45cm; /*0.45cm;*/
+left:  3.5px;	
+top: 2.5px;
+position: relative;
+}
+
+
+div#slider{
+display: ;/**/	
+width: 100%;
+height: 80vh;
+background: #DF05C0;
+position: absolute;
+margin-top:40px; /*19px*/
+margin-bottom: 0px;
+} 
+
+section.slide{
+position: absolute;
+width: 100%;
+	
+}
+
+div#slider #etiqueta1{
+height:  500px;
+background: #DDDDDD;
+/*background: url("img/Fondo_castillo.jpg");*/
+position: relative;
+text-align: center;
+padding-bottom: 50px;
+}
+
+	div#animación{
+	background:  ;
+	width: 80%;
+	margin-left: 10%;
+	min-width: 300px;
+	position: absolute;
+	height: 300px;
+	top: 0px;
+	left: 0px;
+	margin-top: 20px;
+
+	} 
+
+	  canvas {
+	  display: block;
+	  vertical-align: bottom;
+	  }	
+
+      
+
+	  div#particles-js {
+	  position: absolute;
+	  width: 100%;
+	  height: 100%;
+	  background-color: ;
+	  background-image: url("");
+	  background-repeat: no-repeat;
+	  background-size: cover;
+	  background-position: 50% 50%;
+	  }	
+
+	  	
+
+	div#logo_principal{
+	position: relative;
+	background: ;
+	width: 60vw;
+	margin-left: 20vw;
+	min-height: 330px;			
+	}
+
+	div#logo_principal h2{
+	font-size: 	1.8em;
+	padding-top: 	60px;
+	font-weight: 	lighter;
+	background: 	;
+	color: 	#233D58;
+	font-family: 'Sacramento', cursive;		
+	}
+
+	div#logo_principal h2 strong{
+	font-weight: 3em;
+	font-family: 'Merienda', cursive;		
+	display: 	block;
+	}
+
+	div#logo_principal figure,
+	div#logo_principal figure img{
+	margin:0px;
+	width: 100%;	
+	}
+
+	div#botones_principal{
+	background: ;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+
+	}
+
+	div#botones_principal > *{
+	width: 20%;
+	background: ;
+	margin: 5px;
+	color: white;
+	margin-left: 38%;
+	padding: 15px 2.5%;	
+	font-family: 'Merienda', cursive;
+	font-size: 	1.2em;
+	border-radius: 5px; 
+	cursor: pointer;
+	}
+
+	div.Ingresar{
+		background: orange;
+
+	}
+
+	div.Opción2{
+		background: #29abe2; 
+
+	}
+
+
+
+
+div#slider #etiqueta2{
+height:  300px;
+background: red;	
+}
+
+div#slider #etiqueta3{
+height:  200px;	
+background: blue;
+}
+
+div#slider #etiqueta4{
+height:  100px;	
+background: purple;
+}
+
+div#forma_contacto{
+ display: none;
+ position: absolute;
+ top: 57px;
+ right: 0px;
+ background: white;
+ width: 250px;
+ height: 100vh; 
+ border-top: 1px solid black;
+ box-shadow: 0px 0px 3px #9F9E9E;
+ font-family: 'Merienda', cursive;
+ z-index: 999; 
+}
+
+form#formulario{
+position: relative;
+top: 0px;
+left: 0px;
+background: white;
+width: 100%;
+height: 100%;
+}
+
+
+div#cerrar_contacto{
+
+ width: 100%;
+ /*min-height: 50px;*/
+ height: 30%;
+ margin:0px; 
+ margin-top:-23px;
+ padding: 0px;
+ /*text-align: center;*/
+ background: #29abe2;
+ position: relative;
+ top: 0px;
+ left: 0px;
+
+}
+
+div#forma_contacto div#cerrar_contacto:hover{
+ cursor: pointer;	
+}
+/*
+div#cerrar_contacto:before{
+font-family: "icomoon";	
+content: "\e945";
+font-size: 4cm;
+background: red;
+position: relative;
+left: 0px;
+top: 0px;
+height: 100%;		
+}
+*/
+
+
+div#cerrar_contacto span{
+font-size: 7em; 
+position: relative;
+top: 0px;
+left: 75px;
+background; 
+width: 50%;
+height: 100%;
+display: block;
+line-height:1;
+} 
+
+div#cerrar_contacto:after{
+font-family: "icomoon";
+content: "\ea0f";
+font-size: 0.7cm;
+position: relative;
+top: 0px;
+right:  -215px;
+cursor: pointer;
+background:;
+display: inline; 
+
+/*
+top: 125px;
+right:-220px; 
+*/	
+}
+
+span#saludo{
+  font-size: 27px;	
+  margin: 20px;
+  width: 90%;
+  margin-left: 5%;
+  background: 
+  margin-bottom: 0px;
+}
+
+div#cuerpo_formulario{
+background: white;
+position: relative;
+bottom: 0px;
+left: 0px;
+height: 70%;	
+}
+
+div#cuerpo_formulario input,
+div#cuerpo_formulario textarea{
+	display: block;
+	margin: 20px; 
+	border: none;
+	border-bottom: 2px solid gray;
+	margin-left: 5%;  
+	width: 90%;
+	font-weight: bold;
+
+}
+
+div#cuerpo_formulario input#button{
+	background: orange;
+	border:none;
+	color: white;
+	border-radius: 5px;
+	margin-top: 50px;
+
+}
+
+div#boton_formulario{
+ width: 60px;
+ height: 60px;
+ background: orange;
+ border-radius: 50%;
+ z-index: 50; 	
+ position: fixed;
+ top: 80vh;
+ right: 10px;
+}
+
+div#boton_formulario:hover{
+	cursor: pointer;
+}
+
+div#boton_formulario:before{
+font-family: "icomoon";
+content: "\e906";
+position: relative;
+font-size: 2.5em;
+color: white;
+top: 6px ;
+left: 10px;
+
+}
+
+footer{
+width: 100%;
+background: black;
+color: black;
+text-align: center;
+z-index:0;
+height: 150px;
+position: absolute;
+bottom: -130px;/*-130px;*/
+left: 0px;
+transition-duration: 0.4s;
+}
+ footer:hover{
+ 	
+ 	bottom: 0px;
+ }
+
+ footer:after{
+ 	content: "\ea41";
+ 	font-family: "icomoon";
+ 	position: absolute;
+ 	top: 0px;
+ 	left: 50%;
+ 	width: 80px;
+ 	height: 80px;
+ 	margin-left: -40px;
+ 	background: blue;
+ 	margin-top: -40px;
+ 	border-radius: 50%;
+ 	background: black;
+ 	color:white;
+ 	font-size: 4em;
+ 	transition-duration: 0.4s;
+ }
+
+ footer:hover:after{
+ 	transform:rotate(180deg);
+ 	background: white;
+ 	color:black;
+ 	font-size: 4.3em;
+
+ }
+
+ footer div#redes_sociales{
+  margin-top: 70px;
+  width: 100%;
+  height: 40px;
+  background: black;
+
+ }
+
+ div#redes_sociales a{
+ 	width: 40px;
+ 	height: 40px;
+ 	background: black;
+ 	display: inline-block;
+ 	position: relative;
+ }
+
+ div#redes_sociales a:before{
+ 	color: white;
+ 	text-decoration: none;
+ 	position: absolute;
+ 	font-size: 2em;
+ 	top: 2px;
+ 	left: 4px;
+ }
+
+	 div#redes_sociales a:nth-child(1):before{
+	 	font-family: icomoon; 
+	 	content: "\ea90";
+	 }
+	 div#redes_sociales a:nth-child(2):before{
+	 	font-family: icomoon; 
+	 	content: "\ea96";
+	 }
+	 div#redes_sociales a:nth-child(3):before{
+	 	font-family: icomoon; 
+	 	content: "\ea9d";
+	 }
+	 
+
+
+ footer span{
+ 	font-size: ;
+ }
+/*
+figure div#envelop{
+font-family: "icomoon";	
+content: "\e945";
+font-size: 1.5cm;
+position: relative;
+top: 0px;
+left: 0px;	
+}
+*/
+
+/*
+div#slider section#etiqueta1{
+height:  100px;
+background: orange;
+}
+*/
+/*
+div#boton_anterior > div{
+background: orange;
+font-size: 0.2cm;
+left:  0px;	
+top: 25px;
+
+}
+*/
+/*
+div#boton_anterior > div{
+left:  0px;	
+top: 0px;
+background: blue;
+font-size: 1cm;
+
+}
+*/
+
+/*
+div#boton_siguiente{
+font-family: "icomoon";
+content: "\ea34";
+font-size: 1cm;
+position: relative;
+width: 125px;
+height: 125px;
+cursor: pointer;
+overflow: hidden; 
+top: 0px;
+right: 
+}
+
+div#boton_anterior{
+font-family: "icomoon";
+content: "\ea38";
+font-size: 1cm;
+left: 0px;	
+position: relative;
+cursor: pointer;
+overflow: hidden; 
+}
+*/
+/*
+h3:before{
+font-family: "icomoon";
+content: "\ea38";
+font-size: 1cm;
+left: 0px;
+width: 50px;
+}
+
+h3:after{
+font-family: "icomoon";
+content: "\ea34";
+font-size: 1cm;
+left: 0px;
+}
+*/
+
+
+@media screen and (min-width: 480px)
+{
+
+	
+	
+}
+
+@media screen and (min-width: 600px)
+{
+	body{
+	background: orange;	
+	}
+
+	div#logo_principal h2{
+	font-size: 	2.4em;
+
+	}
+
+	div#botones_principal > *{
+	display: inline-block;	
+	/*width: 20%;*/	
+	/*margin-left: 4%;*/
+	margin-left: 1%;
+	width: 30%;
+
+	}
+
+	
+
+
+
+
+}
+
+@media screen and (min-width: 767px)
+{
+	body{
+	background: #2234BC;	
+	}
+
+	header div#h1{
+	background: white;
+	width: 20%;
+	height: 100%; 
+	margin-top:-2px;
+	display: inline-block;
+	}
+
+    a#Ayn_Rand{
+    line-height: 40px;
+    font-size: 0.60cm;
+    list-style: none;
+    text-decoration: none;
+    background: ;
+    }
+
+    a#fig_Atlas_Society{
+     width: 50px;
+     height: 100%;
+     background: green;
+    }
+
+    a#fig_Atlas_Society figure{
+     width: 40px;
+     height: 100%;
+     background: yellow;
+     margin-top: -38px;
+     margin-left: 110px;
+     padding: 0px; 	
+    }
+
+    a#fig_Atlas_Society figure img{
+    display:;
+    width: 100%;
+    height: 100%;
+    }
+
+    div#Menú_open,
+    nav#Menú_exit{
+    display: ;	
+    }
+
+    div#Menú_open{
+     display: none;	
+    }
+
+    nav h3#Menú,
+    nav figure#logo_menu{
+    display: none;	
+    }
+
+    nav#Menú_exit{
+    height: 100%;
+    text-align: right;
+    width: 62%;
+    background: white;
+    vertical-align: middle;
+    position: absolute;
+    margin-left:25%; 
+    border-right: 0px solid #443838;
+    z-index: 999;
+    }
+
+    nav figure#logo_entradas{
+    display: inline-block;
+    text-align: right;	
+    }
+
+    figure#logo_entradas li{
+    display: inline-block;
+    width: 90px;
+    margin-left: 5px;
+    background: ;	
+    }
+
+    
+
+
+	/*
+    header h1{
+    display: inline-block;
+    width: 34%;
+    height: 100%;
+    background: white;
+    margin: 0px;
+    z-index: 2;
+    margin:  0px;
+    margin-left: 10px; 
+    line-height: 50px;
+    }
+
+    header h1 > *{
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none;
+    margin-left: 0px 3px;
+    }
+
+    header h1 a figure{
+    height: 25px;
+    width: 25px;
+    background: green;	
+    }
+    header div h3{
+     display: none;	
+     font-size:27px;
+     background:  ;
+     margin-top: 5px; 	
+     margin-left: 2px;
+     cursor: pointer;
+    }
+    */
+
+    
+
+    /*
+    header h1 a{
+    height: 100%;
+    }
+    
+    header h1 a figure{
+    margin-left: 0px;	
+    position: relative;
+    }
+
+    header h1 a figure img{
+    width: 100%;
+    height: 100%;
+    position: relative;	
+    }
+    */
+	div#boton_siguiente,
+    div#boton_anterior{
+     position: absolute;
+     background: #D7A064;
+     cursor: pointer;
+     width: 50px;
+     height: 50px;
+     right:  40px;
+     z-index: 999;	
+    }
+    div#boton_siguiente{
+     top:115px;
+    }
+    div#boton_anterior{
+     top:230px;
+    }
+    
+    div#boton_siguiente:before{
+     font-family: "icomoon";
+     content: "\ea34";
+     font-size: 1cm;
+     line-height:1.25;
+     left:  5.5px;	
+     top: 2.5px;
+     position: relative;
+    }
+    div#boton_anterior:before{
+     font-family: "icomoon";
+     content: "\ea38";
+     font-size: 1.0cm;/*1cm;*/
+     line-height:1.25;
+     left:  3.5px;	
+     top: 2.5px;
+     position: relative;
+     }
+
+    
+}
+
+@media screen and (min-width: 950px)
+{
+	body{
+	background: brown;	
+	}
+
+	div#botones_principal > *{
+	display: inline-block;	
+	/*width: 20%;*/	
+	/*margin-left: 4%;*/
+	margin-left: 0%;
+	width: 30%;
+
+	}
+
+	div#cerrar_contacto span{
+	font-size: 10em; 
+	position: relative;
+	top: 0px;
+	left: 45px;
+	background; 
+	display: block;
+	line-height:1;
+	} 
+}
