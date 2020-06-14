@@ -1,9 +1,30 @@
+body{
+font-size: 16px;
+font-family: 'Sacramento', cursive;  	
+position: ;
+}
+
+h1{
+text-align: center;	
+}
+
+p#explanatory_text{
+font-size: 14px;
+}
+
 div#matrix{
 display: none;	
-
 }
 
 div#result{
 display: none;	
 
+}
+
+label#header{	
+ font-size: 9px;
+}
+
+footer figure{
+text-align: right;	
 }

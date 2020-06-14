@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+	<title>Ostwald_calculadora</title>
+	<meta name="keywords" content="Ostwald, calculadora">
+	<meta name="owner" content="Pilar Amparo">
+  <meta name="author" content="pmorgadoaucar1995@gmail.com">
+	<link rel="stylesheet" type="text/css" href="css/icomoon.css">
+<!--<link rel="stylesheet" type="text/css" href="css/desing.css">-->
+<link rel="stylesheet" type="text/css" href="css/desing_2.css">
+</head>
+<body>
+	
+<style type="text/css">
+</style>
+
+<header>
+   
+  <h1>Método de aislamiento de Ostwald calculadora</h1>
+  
+</header>
+
+<p id="explanatory_text">
+  La manera más sencilla para determinar el orden y la constante de rapidez de la reacción es utilizar la técnica de aislamiento; se determina a partir de una serie de rapidez, manteniendo constantes uno de los reactantes. El progreso de la reacción puede seguirse en forma conveninete midiendo la absorbancia óptica de uno de los reactantes.
+</p>
+<p>
+	Introduce número de reaccionantes:
+</p>
+
+<form> 
+	<input type="text" id="count_reactants" name="count_reactants"> 
+	<input type="button" value="introducir" onClick="display_matrix()">
+</form>
+
+<div id="matrix">	
+<form name="matrix">
+
+</form>
+</div>
+
+<div id="result">	
+<form name="result">
+
+	resultado=<BR> <input type="text" size="3">
+
+    <BR>
+    <label for="valor_de_k">valor de k:</label>
+    <input type="text" size="3">
+
+    <BR>
+    <label for="valor_de_k">reaccioan:</label>
+    <input type="text" size="3">
+
+</form>
+</div>
+
+
+<script src="js/gauss.js"></script>
+<script src="js/ostwald.js"></script>
+
+<script type="text/javascript">
+
+</script>
+
+<footer>  
+  <figure>
+      <img id="cicata_image" src="img/Logo_CICATA_TF2.png">
+  </figure>
+</footer>
+</body>
+</html>
